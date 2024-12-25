@@ -1,6 +1,10 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Github } from 'lucide-react';
+import image1 from '../assets/Social-Media-Platform.png';
+import image2 from '../assets/Student-Management-System.png';
+import image3 from '../assets/Shopping-Cart.png';
+
 
 const Projects = () => {
   const [ref, inView] = useInView({
@@ -12,19 +16,19 @@ const Projects = () => {
     {
       title: "Social Media Platform - NexusNet",
       description: "Developed a responsive login and sign-up page using HTML, CSS, JavaScript, and Firebase. Integrated functionality for users to upload images and videos. Enabled viewing and editing of user profiles. Focused on user-friendly design and seamless navigation.",
-      image: "Social-Media-Platform.png",
+      image: image1,
       github: "https://github.com/sathvikinguva/Social-Media-Platform"
     },
     {
       title: "Shopping Cart",
       description: " Utilized data structures in C++ for efficient shopping cart management. Supported item addition, removal, and quantity adjustments. Implemented logic to ensure accurate total price calculations. Focused on an intuitive interface for ease of use.",
-      image: "Shopping-Cart.png",
+      image: image3,
       github: "https://github.com/sathvikinguva/Shopping-Cart"
     },
     {
       title: "Student Management System",
       description: "Built using C++ with a Binary Search Tree (BST) for optimized data organization. Supported operations: adding, removing, and searching for student records. Designed for scalability and quick retrieval of student information.",
-      image: "Student-Management-System.png",
+      image: image2,
       github: "https://github.com/sathvikinguva/Student_Management_System"
     }
   ];
@@ -41,7 +45,7 @@ const Projects = () => {
         <h2 className="text-4xl font-bold mb-4">Projects</h2>
         <div className="w-20 h-1 bg-yellow-400 mx-auto mb-8"></div>
         <p className="text-gray-300 max-w-2xl mx-auto">
-        Here are some of my projects in front-end development (HTML/CSS), software engineering, and utilizing React, TypeScript/JavaScript, Firebase, C++, and data structures.
+          Here are some of my projects in front-end development (HTML/CSS), software engineering, and utilizing React, TypeScript/JavaScript, Firebase, C++, and data structures.
         </p>
       </div>
 
