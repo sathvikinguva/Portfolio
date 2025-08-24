@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    @apply antialiased;
+  }
+
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply px-4 sm:px-6 py-2 sm:py-3 bg-yellow-400 text-gray-900 rounded-lg 
+    font-semibold hover:bg-yellow-300 transition-colors inline-flex items-center
+    text-sm sm:text-base;
+  }
+
+  .btn-outline {
+    @apply px-4 sm:px-6 py-2 sm:py-3 border-2 border-yellow-400 text-yellow-400 
+    rounded-lg font-semibold hover:bg-yellow-400 hover:text-gray-900 
+    transition-colors inline-flex items-center text-sm sm:text-base;
+  }
+
+  .section-title {
+    @apply text-3xl sm:text-4xl font-bold mb-4 text-center;
+  }
+
+  .section-subtitle {
+    @apply text-base sm:text-xl text-gray-300 mb-8 sm:mb-12 text-center max-w-3xl mx-auto;
+  }
+
+  .card {
+  @apply bg-gray-800 rounded-lg p-4 sm:p-6 hover:bg-gray-700 transition-colors;
+  }
+
+  .nav-link {
+    @apply px-3 py-2 text-sm sm:text-base font-medium rounded-md transition-colors
+    hover:text-yellow-400 hover:bg-gray-800/50;
+  }
+
+  .nav-link-active {
+    @apply text-yellow-400 bg-gray-800/50;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-yellow-400 rounded-full;
+}
+
+/* Responsive text utilities */
+.text-responsive {
+  @apply text-base sm:text-lg lg:text-xl;
+}
+
+.heading-responsive {
+  @apply text-2xl sm:text-3xl lg:text-4xl font-bold;
+}
+
+/* Animation utilities */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Grid layouts */
+.grid-responsive {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.grid-responsive-2 {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-8;
+}
+
+/* Spacing utilities */
+.section-spacing {
+  @apply py-12 sm:py-16 lg:py-20;
+}
+
+.content-spacing {
+  @apply space-y-6 sm:space-y-8 lg:space-y-12;
+}
