@@ -11,6 +11,7 @@ const Resume = () => {
   const experiences = [
     {
       title: "React Intern",
+<<<<<<< HEAD
       company: "Celebal Technologies",
       jobType: "Remote",
       period: "May 2025 - July 2025",
@@ -23,13 +24,22 @@ const Resume = () => {
       jobType: "On-site",
       period: "June 2024 - July 2024",
       skills: "React, TypeScript/JavaScript, Tailwind CSS, Firebase",
+=======
+      company: "Prabodh Technologies LLP, India",
+      period: "June 2024 - July 2024",
+      skills: "React, TypeScript/JavaScript, Tailwind CSS",
+>>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
       description: "Developed Login and Sign-up pages for the company website. And also, I developed some features to the website. Integrated an API to verify whether an email is already registered. Utilized Firebase for authentication, sending verification links to registered emails, and redirecting users to the homepage upon successful verification. Managing the local storage to keep user details."
     }
   ];
 
   const education = [
     {
+<<<<<<< HEAD
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+=======
+      degree: "Bachelor of Engineering in Computer Science Engineering",
+>>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
       school: "SRM University AP",
       period: "2022-2026"
     }
@@ -47,7 +57,11 @@ const Resume = () => {
         <h2 className="text-4xl font-bold mb-4">Resume</h2>
         <div className="w-20 h-1 bg-yellow-400 mx-auto mb-8"></div>
         <a
+<<<<<<< HEAD
           href="https://drive.google.com/file/d/1kSJdjJSKAkPnogWrwy7mr1n2tzAnS5lz/view?usp=sharing"
+=======
+          href="https://drive.google.com/file/d/1vwn8JWkPFV3GrNLrvuE05Btydxcotge1/view?usp=sharing"
+>>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
           className="inline-flex items-center px-6 py-3 bg-yellow-400 text-gray-900 rounded-lg font-semibold hover:bg-yellow-300 transition-colors"
         >
           <Download className="mr-2" size={20} />
@@ -72,7 +86,10 @@ const Resume = () => {
               <h4 className="text-xl font-semibold text-yellow-400">{exp.title}</h4>
               <p className="text-gray-400 mt-1">{exp.period}</p>
               <p className="text-gray-300 mt-2">{exp.company}</p>
+<<<<<<< HEAD
               <p className="text-sm text-yellow-400/80 mt-1">Location: {exp.jobType}</p>
+=======
+>>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
               <p className="text-sm text-yellow-400/80 mt-3">{exp.skills}</p>
               <p className="text-gray-300 mt-3">{exp.description}</p>
             </motion.div>

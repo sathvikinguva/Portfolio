@@ -7,14 +7,21 @@ import Resume from './components/Resume';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
+<<<<<<< HEAD
 import Patents from './components/Patents';
+=======
+>>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
     const handleScroll = () => {
+<<<<<<< HEAD
       const sections = ['home', 'about', 'resume', 'projects', 'contact', 'patents'];
+=======
+      const sections = ['home', 'about', 'resume', 'projects', 'contact'];
+>>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
       const current = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -58,6 +65,7 @@ function App() {
             <Projects />
           </section>
 
+<<<<<<< HEAD
           <section id="patents" className="min-h-screen py-16 sm:py-20">
             <Patents />
           </section>
@@ -66,6 +74,11 @@ function App() {
             <Contact />
           </section>
 
+=======
+          <section id="contact" className="min-h-screen py-16 sm:py-20">
+            <Contact />
+          </section>
+>>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
         </motion.div>
       </main>
 

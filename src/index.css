@@ -39,7 +39,11 @@
   }
 
   .card {
+<<<<<<< HEAD
   @apply bg-gray-800 rounded-lg p-4 sm:p-6 hover:bg-gray-700 transition-colors;
+=======
+    @apply bg-gray-800 rounded-lg p-4 sm:p-6 hover:bg-gray-750 transition-colors;
+>>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
   }
 
   .nav-link {
