@@ -1,18 +1,11 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-<<<<<<< HEAD
 import { Github, Globe2 } from 'lucide-react';
 import image1 from '../assets/Social-Media-Platform.png';
 import image2 from '../assets/KanBan.png';
 import image3 from '../assets/NGO.png';
 import image4 from '../assets/Cloud.png';
 import image5 from '../assets/Quiz.png';
-=======
-import { Github } from 'lucide-react';
-import image1 from '../assets/Social-Media-Platform.png';
-import image2 from '../assets/Student-Management-System.png';
-import image3 from '../assets/Shopping-Cart.png';
->>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
 
 
 const Projects = () => {
@@ -23,7 +16,6 @@ const Projects = () => {
 
   const projects = [
     {
-<<<<<<< HEAD
       title: "NGO Work Monitoring System",
       description: " The NGO Work Monitoring System is a comprehensive platform that connects donors, NGOs, and government agencies through a transparent blockchain-based donation tracking system. The platform ensures accountability by allowing NGOs to provide evidence of how donations are utilized, while donors can track the impact of their contributions.",
       image: image3,
@@ -40,15 +32,10 @@ const Projects = () => {
     {
       title: "Social Media Platform - NexusNet",
       description: "Developed a responsive login and sign-up page using HTML, CSS, JavaScript, and Firebase. Integrated functionality for users to upload images and videos. Enabled viewing and editing of user profiles. Focused on user-friendly design and seamless navigation. Added content posting and sharing features to enhance community engagement.",
-=======
-      title: "Social Media Platform - NexusNet",
-      description: "Developed a responsive login and sign-up page using HTML, CSS, JavaScript, and Firebase. Integrated functionality for users to upload images and videos. Enabled viewing and editing of user profiles. Focused on user-friendly design and seamless navigation.",
->>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
       image: image1,
       github: "https://github.com/sathvikinguva/Social-Media-Platform"
     },
     {
-<<<<<<< HEAD
       title: "Cloud-Based-Student-Attendance-System",
       description: "The Cloud-Based Student Attendance System is an academic project using React, Python, and Azure to automate attendance through facial recognition with the Azure Face API. It features a responsive React.js frontend, a Python backend for authentication and data management, and secure cloud storage.",
       image: image4,
@@ -59,18 +46,6 @@ const Projects = () => {
       description: "The Quiz Application is a desktop-based project built with Java Swing and SQLite, featuring secure teacher/student login. Teachers can create and manage quizzes, while students can attempt them with time limits and receive instant score reports. The application uses JDBC for database connectivity and offers a dynamic, user-friendly UI.",
       image: image5,
       github: "https://github.com/sathvikinguva/QuizApp"
-=======
-      title: "Shopping Cart",
-      description: " Utilized data structures in C++ for efficient shopping cart management. Supported item addition, removal, and quantity adjustments. Implemented logic to ensure accurate total price calculations. Focused on an intuitive interface for ease of use.",
-      image: image3,
-      github: "https://github.com/sathvikinguva/Shopping-Cart"
-    },
-    {
-      title: "Student Management System",
-      description: "Built using C++ with a Binary Search Tree (BST) for optimized data organization. Supported operations: adding, removing, and searching for student records. Designed for scalability and quick retrieval of student information.",
-      image: image2,
-      github: "https://github.com/sathvikinguva/Student_Management_System"
->>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
     }
   ];
 
@@ -86,11 +61,7 @@ const Projects = () => {
         <h2 className="text-4xl font-bold mb-4">Projects</h2>
         <div className="w-20 h-1 bg-yellow-400 mx-auto mb-8"></div>
         <p className="text-gray-300 max-w-2xl mx-auto">
-<<<<<<< HEAD
           Explore a selection of my projects spanning modern front-end development, full-stack engineering, and cloud solutions. These works showcase expertise in React, TypeScript, JavaScript, Firebase, C++, Azure, and advanced data structures—demonstrating a passion for building scalable, secure, and user-friendly applications.
-=======
-          Here are some of my projects in front-end development (HTML/CSS), software engineering, and utilizing React, TypeScript/JavaScript, Firebase, C++, and data structures.
->>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
         </p>
       </div>
 
@@ -119,7 +90,6 @@ const Projects = () => {
                 {project.description}
               </p>
               <div className="flex space-x-4">
-<<<<<<< HEAD
                 {project.website && (
                   <a
                     href={project.website}
@@ -135,10 +105,6 @@ const Projects = () => {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-=======
-                <a
-                  href={project.github}
->>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
                   className="inline-flex items-center text-gray-300 hover:text-yellow-400 transition-colors"
                 >
                   <Github className="mr-2" size={20} />
