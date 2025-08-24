@@ -11,29 +11,17 @@ const About = () => {
   const categories = [
     {
       title: "Languages",
-<<<<<<< HEAD
       items: ["Python", "C", "C++", "SQL", "HTML", "CSS", "JavaScript", "Solidity", "Java", "TypeScript"],
-=======
-      items: ["Python", "C", "C++", "SQL", "HTML", "CSS", "JavaScript"],
->>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
       icon: <Code className="w-8 h-8 text-yellow-400" />,
     },
     {
       title: "Tools",
-<<<<<<< HEAD
       items: ["Visual Studio Code", "GitHub", "MetaMask", "Thirdweb", "Microsoft Excel", "Microsoft Word", "Figma", "Azure"],
-=======
-      items: ["Visual Studio Code", "GitHub", "Microsoft Excel", "Microsoft Word", "Figma"],
->>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
       icon: <Wrench className="w-8 h-8 text-yellow-400" />,
     },
     {
       title: "Libraries & Frameworks",
-<<<<<<< HEAD
       items: ["React.js", "Node.js", "Bootstrap", "MySQL", "Firebase", "Tailwind CSS"],
-=======
-      items: ["React.js", "Node.js", "Bootstrap", "MySQL", "Firebase"],
->>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
       icon: <Layers className="w-8 h-8 text-yellow-400" />,
     },
   ];
@@ -55,16 +43,7 @@ const About = () => {
       {/* Introduction Section */}
       <div className="flex flex-col items-center space-y-8">
         <p className="text-lg text-gray-300 text-center max-w-4xl leading-relaxed">
-<<<<<<< HEAD
           A motivated Computer Science undergraduate specializing in Cloud Computing, with internship experience as a React Intern at Celebal Technologies and Prabodh Technologies LLP, where I built responsive UIs, implemented API integrations, and enhanced authentication systems. Skilled in Python, C++, JavaScript, React.js, Node.js, Firebase, and Solidity, with strong problem-solving abilities. Successfully developed impactful projects including a blockchain-based NGO Work Monitoring System, a social media platform (NexusNet), and an AI-powered sensitive content detection system published as a patent. Recognized as a winner at HackSRM 6.0 (Blockchain Track) and the Hack For India AI Hackathon, demonstrating innovation in blockchain and AI solutions. Passionate about building scalable, real-world applications that combine modern frameworks with cloud technologies.
-=======
-          A skilled and motivated software developer with expertise in Python, C++, JavaScript, 
-          and tools like Visual Studio Code and GitHub. Proficient in modern frameworks like React.js, 
-          Node.js, and Firebase, with experience as a React Intern at Prabodh Technologies LLP, where 
-          I developed website features, implemented email verification, and enhanced user authentication. 
-          Active in community initiatives like Microsoft Student Community, organizing technical events and workshops. 
-          Certified in programming, web development, and AI, with a strong focus on problem-solving.
->>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
         </p>
       </div>
 

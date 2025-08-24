@@ -18,10 +18,7 @@ const Nav = ({ activeSection, setActiveSection }) => {
     { id: 'about', label: 'About' },
     { id: 'resume', label: 'Resume' },
     { id: 'projects', label: 'Projects' },
-<<<<<<< HEAD
     { id: 'patents', label: 'Patents' },
-=======
->>>>>>> 97e9026ded59384932e7fd3df77a79d1cfd4496c
     { id: 'contact', label: 'Contact' },
   ];
 
