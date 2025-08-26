@@ -20,14 +20,14 @@ const Patents = () => (
       <h2 className="text-4xl font-bold mb-4">Patents</h2>
       <div className="w-20 h-1 bg-yellow-400 mx-auto mb-8"></div>
     </div>
-    <div className="flex flex-row items-center bg-gray-800 rounded-lg shadow-lg p-6">
-      <div className="flex-1">
-        <h3 className="text-xl font-semibold text-yellow-400 mb-2">{patent.title}</h3>
-        <a href={patent.url} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline text-sm">{patent.url}</a>
-        <div className="mt-2 text-gray-300 text-sm">Credential No: {patent.credentialNo} | Status: {patent.status}</div>
-        <div className="mt-1 text-gray-400 text-xs">Filling Date: {patent.fillingDate} | Issued Date: {patent.issuedDate}</div>
+    <div className="flex flex-col md:flex-row items-center bg-gray-800 rounded-lg shadow-lg p-6">
+      <div className="w-full md:flex-1 mb-6 md:mb-0">
+        <h3 className="text-xl font-semibold text-yellow-400 mb-2 text-center md:text-left">{patent.title}</h3>
+        <a href={patent.url} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline text-sm block text-center md:text-left">{patent.url}</a>
+        <div className="mt-2 text-gray-300 text-sm text-center md:text-left">Credential No: {patent.credentialNo} | Status: {patent.status}</div>
+        <div className="mt-1 text-gray-400 text-xs text-center md:text-left">Filling Date: {patent.fillingDate} | Issued Date: {patent.issuedDate}</div>
       </div>
-      <div className="flex-1">
+      <div className="w-full md:flex-1">
         <ul className="list-disc pl-5 text-gray-300 text-sm space-y-2">
           {patent.description.map((item, idx) => (
             <li key={idx}>{item}</li>
