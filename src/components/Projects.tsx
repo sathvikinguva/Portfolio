@@ -6,6 +6,7 @@ import image2 from '../assets/KanBan.png';
 import image3 from '../assets/NGO.png';
 import image4 from '../assets/Cloud.png';
 import image5 from '../assets/Quiz.png';
+import image6 from '../assets/PyTrem.png';
 
 
 const Projects = () => {
@@ -15,6 +16,13 @@ const Projects = () => {
   });
 
   const projects = [
+    {
+      title: "Python Based Web Terminal",
+      description: " PyTerm is a modern, AI-enhanced Python terminal with dual interfaces (CLI and Web), combining traditional shell operations with natural language command processing. It supports secure file management, intelligent auto-completion, command history, and real-time system monitoring, while prioritizing safety with sandboxing and confirmation prompts. It works seamlessly across Windows, macOS, and Linux.",
+      image: image6,
+      github: "https://github.com/sathvikinguva/Python-Based-Command-Terminal",
+      website: "https://pytem.vercel.app/"
+    },
     {
       title: "NGO Work Monitoring System",
       description: " The NGO Work Monitoring System is a comprehensive platform that connects donors, NGOs, and government agencies through a transparent blockchain-based donation tracking system. The platform ensures accountability by allowing NGOs to provide evidence of how donations are utilized, while donors can track the impact of their contributions.",
